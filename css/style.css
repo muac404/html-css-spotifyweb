@@ -25,6 +25,16 @@ li{
     font-size: 14px;
     padding-left: 10px;
 }
+
+.player{
+    background-color: #282828;
+    height: 80px;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+}
 /* TYPO */
 body{
     font-family: 'Montserrat', sans-serif;
@@ -57,10 +67,24 @@ main{
 
 .upgrade-scroll{
     text-align: right;
+    background-color: #080b12;
+    position: fixed;
+    height: 80px;
+    width: calc(100% - 300px);
+    z-index: 99;
+    right: 0;
 }
 
 .discover-menu{
     display: flex;
+    justify-content: center;
 
+}
+
+.main-section{
+    background-color: #141922;
+    color: white;
+    height: 800px;
+    margin-top: 80px;
 }
 

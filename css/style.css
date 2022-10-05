@@ -11,10 +11,56 @@ img{
 }
 
 /* COMMON */
+body{
+    height: 100vh;
+}
 
+.page-container{
+    display: flex;
+    justify-content: space-between;
+}
 
+li{
+    list-style: none;
+    font-size: 14px;
+    padding-left: 10px;
+}
 /* TYPO */
 body{
     font-family: 'Montserrat', sans-serif;
+}
+
+/* ASIDE */
+
+aside{
+    background-color: #000000;
+    width: 300px;
+}
+
+main{
+    width: calc(100% - 300px) ;
+}
+
+.debug-aside{
+    height: 1000px;
+}
+
+.aside-menu{
+    color: white;
+}
+
+.right-section{
+    width: calc(100% - 300px);
+    height: calc(100% - 80px);
+    
+}
+
+.upgrade-scroll{
+    text-align: right;
+}
+
+.discover-menu{
+    display: flex;
+
 }
 

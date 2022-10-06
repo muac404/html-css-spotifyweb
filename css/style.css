@@ -62,14 +62,16 @@ aside{
 
 .aside-menu img{
     height: 25px;
+    padding-right: 15px;
 }
 
 .aside-menu li{
     display: flex;
     align-items: center;
     list-style: none;
+    
     padding-left: 20px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 .aside-menu h3{
@@ -106,7 +108,9 @@ main{
     overflow-y: auto;
     color: grey;
 }
-
+.playlist-header{
+    margin-top: 20px;
+}
 .playlist-header i{
     font-size: 36px;
 }

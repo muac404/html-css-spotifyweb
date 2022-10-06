@@ -253,13 +253,15 @@ hr{
 
 .player{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .footer-left{
     display: flex;
     align-items: center;
     
-    max-width: 30%;
+    max-width: 25%;
 }
 .artwork img{
     height: 40px;
@@ -289,4 +291,24 @@ hr{
 
 .footer-left i{
     color: grey;
+}
+
+
+.footer-center{
+    width: 50%;
+}
+.tools-icons{
+    display: flex;
+}
+
+.timeline-elements{
+    display: flex;
+}
+
+.footer-right{
+    width: 25%;
+}
+
+.right-icon{
+    display: flex;
 }

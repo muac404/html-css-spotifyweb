@@ -125,3 +125,22 @@ main{
 .album-card img{
     max-width: 180px;
 }
+
+/* RESPONSIVE */
+@media screen and (max-width: 1100px) {
+    .albums-row{
+        flex-wrap: wrap;
+    }
+    .album-card{
+        width: calc(100% / 4 - 15px);
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .albums-row{
+        flex-wrap: wrap;
+    }
+    .album-card{
+        width: calc(100% / 2 - 15px);
+    }
+}

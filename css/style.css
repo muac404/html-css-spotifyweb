@@ -119,6 +119,7 @@ main{
 }
 .album-card{
     text-align: center;
+    width: calc(100% / 6 - 15px);
     padding: 15px;
 }
 .album-card img{

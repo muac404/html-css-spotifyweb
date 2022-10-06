@@ -121,7 +121,40 @@ main{
     color: white;
     position: absolute;
     bottom: 0;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    background-color: #000000;
 }
+
+.download{
+    display: flex;
+    align-items: center;
+    
+}
+
+.download img{
+    height: 15px;
+    padding-right: 10px;
+}
+
+hr{
+    border: 1px solid grey;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 250px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    
+}
+
+.profile img{
+    padding-right: 10px;
+    height: 15px;
+}
+
 .right-section{
     width: calc(100% - 300px);
     height: calc(100% - 80px);

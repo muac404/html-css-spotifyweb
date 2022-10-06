@@ -112,3 +112,15 @@ main{
     margin-left: 15px;
     margin-top: 30px;
 }
+
+.albums-row{
+    display: flex;
+    
+}
+.album-card{
+    text-align: center;
+    padding: 15px;
+}
+.album-card img{
+    max-width: 180px;
+}

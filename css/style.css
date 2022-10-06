@@ -246,3 +246,47 @@ hr{
         width: calc(100% / 2 - 15px);
     }
 }
+
+
+
+/* FOOTER */
+
+.player{
+    display: flex;
+}
+
+.footer-left{
+    display: flex;
+    align-items: center;
+    
+    max-width: 30%;
+}
+.artwork img{
+    height: 40px;
+    
+}
+
+.artwork{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.song-detail{
+    padding-right: 20px;
+}
+.like{
+    padding-left: 30px;
+    padding-right: 15px;
+}
+
+.folder{
+    
+    padding-right: 15px;
+}
+.song-detail h3{
+    color: white;
+}
+
+.footer-left i{
+    color: grey;
+}

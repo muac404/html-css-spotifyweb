@@ -41,6 +41,15 @@ body{
     font-family: 'Montserrat', sans-serif;
 }
 
+small{
+    color: grey;
+}
+
+.created-for{
+    padding-left: 15px;
+}
+
+
 /* ASIDE */
 
 aside{

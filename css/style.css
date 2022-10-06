@@ -299,16 +299,46 @@ hr{
 }
 .tools-icons{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
 }
 
+#play-icon{
+    font-size: 20px;
+}
+.tools-icons li{
+    padding-left: 10px;
+    padding-right: 10px;
+}
 .timeline-elements{
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.timeline-elements li{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.timeline-elements small{
+    color: white;
+    font-weight: bold;
+}
 .footer-right{
     width: 25%;
 }
 
 .right-icon{
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.right-icon li{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
 }

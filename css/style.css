@@ -57,7 +57,7 @@ aside{
     flex-direction: column;
     background-color: #000000;
     width: 300px;
-    overflow-y: hidden;
+    
 }
 
 .aside-menu img{

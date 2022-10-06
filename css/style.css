@@ -30,7 +30,7 @@ li{
 .player{
     background-color: #282828;
     height: 80px;
-    position: fixed;
+    position: relative;
     z-index: 100;
     width: 100%;
     left: 0;
@@ -53,7 +53,8 @@ main{
 }
 
 .debug-aside{
-    height: 1000px;
+    height: calc(100vh - 80px);
+
 }
 
 .aside-menu{
@@ -97,7 +98,7 @@ main{
 .main-section{
     background-color: #141922;
     color: white;
-    height: 800px;
+    height: calc(100vh - 160px);
     margin-top: 80px;
     overflow-y: auto;
 }

@@ -7,7 +7,8 @@
 }
 
 img{
-    width: 100%;
+    max-width: 100%;
+    max-height: 100%;
 }
 
 /* COMMON */
@@ -23,8 +24,7 @@ body{
 li{
     list-style: none;
     font-size: 14px;
-    padding-left: 30px;
-    padding-top: 20px;
+   
 }
 
 .player{
@@ -53,15 +53,45 @@ small{
 /* ASIDE */
 
 aside{
+    display: flex;
+    flex-direction: column;
     background-color: #000000;
     width: 300px;
+    overflow-y: hidden;
 }
 
+.aside-menu img{
+    height: 25px;
+}
+
+.aside-menu li{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.aside-menu h3{
+    
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.aside-menu span{
+    color: grey;
+    padding-left: 10px;
+    
+}
+.aside-menu a{
+    color: grey;
+    text-decoration: none;
+}
 main{
     width: calc(100% - 300px) ;
 }
 
-.debug-aside{
+.aside{
     height: calc(100vh - 80px);
 
 }
@@ -70,6 +100,21 @@ main{
     color: white;
 }
 
+.playlist-nav{
+    padding-top: 10px;
+    overflow-y: auto;
+    color: grey;
+}
+
+.playlist-header i{
+    font-size: 36px;
+}
+
+.create-playlist{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+}
 .right-section{
     width: calc(100% - 300px);
     height: calc(100% - 80px);
@@ -98,12 +143,16 @@ main{
 
 .discover-menu{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     margin-top: 20px;
     color: grey;
 
 }
 
+.discover-menu li{
+    padding-left: 15px;
+}
 .main-section{
     background-color: #141922;
     color: white;
@@ -132,7 +181,7 @@ main{
     padding: 15px;
 }
 .album-card img{
-    max-width: 180px;
+    width: 180px;
 }
 
 /* RESPONSIVE */

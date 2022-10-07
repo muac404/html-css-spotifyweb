@@ -322,15 +322,23 @@ hr{
 .overlay-play{
     font-size: 45px;
     position: absolute;
-    visibility: hidden;
+    
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 .overlay-play:hover{
-    visibility: visible;
+    
 }
+.hide {
+    display: none;
+  }
+
+.overlay-play:hover + .hide:hover {
+    display: block;
+    
+  }
 
 .album-card img:hover {
     opacity: 20%;

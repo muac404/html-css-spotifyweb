@@ -85,6 +85,13 @@ aside{
     cursor: pointer;
 }
 
+.pos-nav-green{
+    height: 25px;
+    width: 2px;
+    background-color: #adff2f;
+    margin-right: 20px;
+
+}
 .aside-menu li:hover{
     display: flex;
     align-items: center;
@@ -338,6 +345,14 @@ hr{
     
     max-width: 25%;
 }
+
+.footer-left i{
+    cursor: pointer;
+}
+
+.footer-left i:hover{
+    color: white;
+}
 .artwork img{
     height: 40px;
     width: 40px;
@@ -350,6 +365,12 @@ hr{
 
 .song-detail{
     padding-right: 20px;
+}
+.song-detail h3{
+    cursor: pointer;
+}
+.song-detail small:hover{
+    color: white;
 }
 .like{
     padding-left: 30px;
@@ -423,12 +444,16 @@ hr{
     position: absolute;
     left: inherit;
     top: 0;
-    
     height: 4px;
     background-color: #c1c1c1;
     width: 60px;
     border-radius: 5px;
+    cursor: pointer;
 
+}
+
+.music-bar-grey:hover{
+    background-color: #adff2f;
 }
 
 .music-bar-r{
@@ -442,11 +467,15 @@ hr{
     position: absolute;
     left: inherit;
     top: 0;
-    
+    cursor: pointer;
     height: 4px;
     background-color: #c1c1c1;
     width: 20px;
     border-radius: 5px;
+}
+
+.music-bar-r-grey:hover{
+    background-color: #adff2f;
 }
 .timeline-elements small{
     color: white;
@@ -460,6 +489,14 @@ hr{
     display: flex;
     justify-content: flex-end;
     align-items: center;
+}
+
+.right-icon i{
+    cursor: pointer;
+}
+
+.right-icon i:hover{
+    scale: 1.2;
 }
 
 .right-icon li{

@@ -191,6 +191,10 @@ hr{
     transition: all 1s;
 }
 
+.upgrade-scroll a{
+    text-decoration: none;
+    color: white;
+}
 .upgrade-scroll button:hover{
     scale: 1.1;
 }
@@ -202,8 +206,29 @@ hr{
     color: grey;
 
 }
+.discover-menu li:first-child:after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 33px;
+    
+    bottom: -5px;
+    background-color: lightgreen;
+    left: 48px;
+}
 
+.discover-menu a{
+    text-decoration: none;
+    color: grey;
+    font-weight: bold;
+}
+.discover-menu a:hover{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
 .discover-menu li{
+    position: relative;
     padding-left: 15px;
 }
 .main-section{

@@ -43,6 +43,7 @@ body{
 
 small{
     color: grey;
+    cursor: pointer;
 }
 
 .created-for{
@@ -63,7 +64,16 @@ aside{
 .aside-menu img{
     height: 25px;
     padding-right: 15px;
+    filter: invert(60%);
+    cursor: pointer;
 }
+
+.aside-menu img:hover{
+    height: 25px;
+    padding-right: 15px;
+    filter: invert(0%);
+}
+
 
 .aside-menu li{
     display: flex;
@@ -72,6 +82,20 @@ aside{
     
     padding-left: 20px;
     padding-bottom: 15px;
+    cursor: pointer;
+}
+
+.aside-menu li:hover{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    color: white;
+    padding-left: 20px;
+    padding-bottom: 15px;
+}
+
+.aside-menu a:hover{
+    color: white;
 }
 
 .aside-menu h3{
@@ -83,11 +107,21 @@ aside{
 .aside-menu span{
     color: grey;
     padding-left: 10px;
+    cursor: pointer;
+    
+}
+.aside-menu span:hover{
+    color: white;
+    padding-left: 10px;
     
 }
 .aside-menu a{
     color: grey;
     text-decoration: none;
+}
+
+.download small:hover{
+    color: white;
 }
 main{
     width: calc(100% - 300px) ;
@@ -113,6 +147,14 @@ main{
 }
 .playlist-header i{
     font-size: 36px;
+    color: grey;
+    cursor: pointer;
+}
+
+.playlist-header i:hover{
+    font-size: 36px;
+    color: white;
+    cursor: pointer;
 }
 
 .scroll{
@@ -188,7 +230,7 @@ hr{
     border-radius: 20px;
     margin-top: 20px;
     margin-right: 20px;
-    transition: all 1s;
+    
 }
 
 .upgrade-scroll a{
@@ -338,11 +380,24 @@ hr{
 }
 
 #play-icon{
-    font-size: 20px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+#play-icon:hover{
+    font-size: 25px;
+    cursor: pointer;
+    scale: 1.2;
 }
 .tools-icons li{
     padding-left: 10px;
     padding-right: 10px;
+}
+.tools-icons i{
+    cursor: pointer;
+}
+.tools-icons i:hover{
+    scale: 1.2;
 }
 .timeline-elements{
     display: flex;

@@ -305,9 +305,35 @@ hr{
     text-align: center;
     width: calc(100% / 6 - 15px);
     padding: 15px;
+    
+    
 }
 .album-card img{
     width: 180px;
+    cursor: pointer;
+}
+
+.image-album{
+    width: 100%;
+    position: relative;
+}
+
+
+.overlay-play{
+    font-size: 45px;
+    position: absolute;
+    visibility: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.overlay-play:hover{
+    visibility: visible;
+}
+
+.album-card img:hover {
+    opacity: 20%;
 }
 
 /* RESPONSIVE */

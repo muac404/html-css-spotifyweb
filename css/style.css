@@ -297,6 +297,7 @@ hr{
     display: none;
     max-height: 80px;
     padding: 15px;
+    width: 60px;
 }
 
 .recently-played h2{
@@ -421,6 +422,12 @@ hr{
 
     .logo-mobile img{
         display: block;
+    }
+
+    .aside-menu img{
+     
+         filter: invert(0%);
+       
     }
 
 }

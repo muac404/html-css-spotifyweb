@@ -90,6 +90,7 @@ aside{
     width: 2px;
     background-color: #adff2f;
     margin-right: 20px;
+    margin-left: -20px;
 
 }
 .aside-menu li:hover{
@@ -260,7 +261,8 @@ hr{
     position: absolute;
     height: 1px;
     width: 33px;
-    bottom: -5px;
+    bottom: -1px;
+    
     background-color:#adff2f;
     left: 48px;
 }
@@ -319,7 +321,7 @@ hr{
 }
 
 
-.overlay-play{
+.overlay-play i{
     font-size: 45px;
     position: absolute;
     
@@ -329,6 +331,9 @@ hr{
 }
 
 
+.overlay-play i:hover{
+    display: block;
+}
 
 .album-card img:hover {
     opacity: 20%;
@@ -342,6 +347,7 @@ hr{
     .album-card{
         width: calc(100% / 4 - 15px);
     }
+    
 }
 
 @media screen and (max-width: 700px) {
@@ -350,6 +356,52 @@ hr{
     }
     .album-card{
         width: calc(100% / 2 - 15px);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .aside-menu a{
+        display: none;
+    }
+
+    .pos-nav-green{
+        display: none;
+    }
+
+    .aside{
+        width: 50px;
+    }
+
+    .right-section{
+        width: calc(100% - 50px);
+    }
+
+    .upgrade-scroll{
+        width: calc(100% - 50px);
+    }
+
+    .playlist-header{
+        display: none;
+    }
+
+    .playlist-nav{
+        display: none;
+    }
+
+    .download small{
+        display: none;
+    }
+
+    .account hr{
+        display: none;
+    }
+
+    .profile h3{
+        display: none;
+    }
+
+    .account img{
+        margin-top: 10px;
     }
 }
 

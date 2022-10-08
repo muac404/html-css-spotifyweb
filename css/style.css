@@ -294,6 +294,12 @@ hr{
     padding: 15px;
 }
 
+.logo-mobile img{
+    display: none;
+    max-height: 80px;
+    padding: 15px;
+}
+
 .recently-played h2{
     margin-left: 15px;
     margin-top: 30px;
@@ -403,6 +409,19 @@ hr{
     .account img{
         margin-top: 10px;
     }
+
+    .aside-menu img{
+        scale: 1.3;
+    }
+
+    .logo-desktop img{
+        display: none;
+    } 
+
+    .logo-mobile img{
+        display: block;
+    }
+
 }
 
 

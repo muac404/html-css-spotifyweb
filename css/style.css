@@ -332,19 +332,20 @@ hr{
 .overlay-play i{
     font-size: 45px;
     position: absolute;
-    
+    opacity: 0;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
 
 
+
 .overlay-play i:hover{
-    display: block;
+   opacity: 100;
 }
 
-.album-card img:hover {
-    opacity: 20%;
+.image-album img:hover {
+    opacity: 0.6;
 }
 
 /* RESPONSIVE */
@@ -377,15 +378,15 @@ hr{
     }
 
     .aside{
-        width: 50px;
+        width: 60px;
     }
 
     .right-section{
-        width: calc(100% - 50px);
+        width: calc(100% - 60px);
     }
 
     .upgrade-scroll{
-        width: calc(100% - 50px);
+        width: calc(100% - 60px);
     }
 
     .playlist-header{
